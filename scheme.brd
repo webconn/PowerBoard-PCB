@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -91,7 +91,7 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="116" name="centerDrill" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -168,6 +168,81 @@
 <text x="6.985" y="33.02" size="1.6764" layer="1" font="vector" ratio="15" rot="R90">vout</text>
 <text x="3.4925" y="1.5875" size="1.6764" layer="1" font="vector" ratio="15" rot="R90">gnd</text>
 <text x="6.35" y="1.5875" size="1.6764" layer="1" font="vector" ratio="15" rot="R90">vout</text>
+<circle x="77.788" y="29.845" radius="0.404" width="0.308" layer="116"/>
+<circle x="75.248" y="29.845" radius="0.403" width="0.308" layer="116"/>
+<circle x="72.708" y="29.845" radius="0.404" width="0.308" layer="116"/>
+<circle x="74.295" y="7.62" radius="0.404" width="0.308" layer="116"/>
+<circle x="74.295" y="5.08" radius="0.404" width="0.308" layer="116"/>
+<circle x="71.755" y="7.62" radius="0.404" width="0.308" layer="116"/>
+<circle x="71.755" y="5.08" radius="0.404" width="0.308" layer="116"/>
+<circle x="69.215" y="7.62" radius="0.404" width="0.308" layer="116"/>
+<circle x="69.215" y="5.08" radius="0.404" width="0.308" layer="116"/>
+<circle x="43.498" y="37.148" radius="0.353" width="0.206" layer="116"/>
+<circle x="43.498" y="32.068" radius="0.353" width="0.206" layer="116"/>
+<circle x="43.498" y="34.608" radius="0.353" width="0.206" layer="116"/>
+<circle x="43.498" y="7.303" radius="0.353" width="0.206" layer="116"/>
+<circle x="43.498" y="2.223" radius="0.353" width="0.206" layer="116"/>
+<circle x="43.498" y="4.763" radius="0.353" width="0.206" layer="116"/>
+<circle x="56.908" y="33.337" radius="0.375" width="0.25" layer="116"/>
+<circle x="50.407" y="33.337" radius="0.375" width="0.25" layer="116"/>
+<circle x="3.81" y="21.565" radius="0.48" width="0.46" layer="116"/>
+<circle x="3.81" y="16.535" radius="0.48" width="0.46" layer="116"/>
+<circle x="17.53" y="28.125" radius="0.9" width="1.3" layer="116"/>
+<circle x="17.53" y="41.725" radius="0.9" width="1.3" layer="116"/>
+<circle x="12.49" y="32.825" radius="0.5" width="0.5" layer="116"/>
+<circle x="12.49" y="37.025" radius="0.5" width="0.5" layer="116"/>
+<circle x="17.99" y="32.825" radius="0.5" width="0.5" layer="116"/>
+<circle x="17.99" y="37.025" radius="0.5" width="0.5" layer="116"/>
+<circle x="17.53" y="-2.038" radius="0.9" width="1.3" layer="116"/>
+<circle x="17.53" y="11.562" radius="0.9" width="1.3" layer="116"/>
+<circle x="12.49" y="2.663" radius="0.5" width="0.5" layer="116"/>
+<circle x="12.49" y="6.863" radius="0.5" width="0.5" layer="116"/>
+<circle x="17.99" y="2.663" radius="0.5" width="0.5" layer="116"/>
+<circle x="17.99" y="6.863" radius="0.5" width="0.5" layer="116"/>
+<circle x="76.2" y="6.35" radius="0.3" width="0.1" layer="116"/>
+<circle x="61.595" y="14.288" radius="0.3" width="0.1" layer="116"/>
+<circle x="44.45" y="23.495" radius="0.3" width="0.1" layer="116"/>
+<circle x="41.275" y="15.875" radius="0.35" width="0.2" layer="116"/>
+<circle x="60.008" y="12.383" radius="0.299" width="0.1" layer="116"/>
+<circle x="30.163" y="23.812" radius="0.35" width="0.2" layer="116"/>
+<circle x="29.845" y="2.857" radius="0.35" width="0.2" layer="116"/>
+<circle x="20.955" y="13.652" radius="0.35" width="0.2" layer="116"/>
+<circle x="25.4" y="10.16" radius="0.35" width="0.2" layer="116"/>
+<circle x="26.035" y="28.893" radius="0.35" width="0.2" layer="116"/>
+<circle x="65.722" y="5.08" radius="0.3" width="0.1" layer="116"/>
+<circle x="41.593" y="20.32" radius="0.299" width="0.1" layer="116"/>
+<circle x="56.833" y="13.97" radius="0.35" width="0.2" layer="116"/>
+<circle x="61.278" y="37.465" radius="0.3" width="0.1" layer="116"/>
+<circle x="41.275" y="27.305" radius="0.3" width="0.1" layer="116"/>
+<circle x="42.545" y="12.7" radius="0.35" width="0.2" layer="116"/>
+<circle x="64.135" y="25.4" radius="0.3" width="0.1" layer="116"/>
+<circle x="58.738" y="10.795" radius="0.3" width="0.1" layer="116"/>
+<circle x="62.23" y="21.273" radius="0.3" width="0.1" layer="116"/>
+<circle x="65.088" y="9.843" radius="0.3" width="0.1" layer="116"/>
+<circle x="60.008" y="31.115" radius="0.299" width="0.1" layer="116"/>
+<circle x="76.517" y="25.082" radius="0.3" width="0.1" layer="116"/>
+<circle x="60.325" y="21.273" radius="0.3" width="0.1" layer="116"/>
+<circle x="65.722" y="16.828" radius="0.3" width="0.1" layer="116"/>
+<circle x="3.81" y="12.383" radius="0.35" width="0.2" layer="116"/>
+<circle x="23.495" y="33.02" radius="0.35" width="0.2" layer="116"/>
+<circle x="42.545" y="28.575" radius="0.3" width="0.1" layer="116"/>
+<circle x="49.848" y="26.988" radius="0.3" width="0.1" layer="116"/>
+<circle x="67.945" y="28.575" radius="0.3" width="0.1" layer="116"/>
+<circle x="20.32" y="11.113" radius="0.35" width="0.2" layer="116"/>
+<circle x="44.768" y="14.605" radius="0.35" width="0.2" layer="116"/>
+<circle x="52.388" y="26.67" radius="0.3" width="0.1" layer="116"/>
+<circle x="72.073" y="26.988" radius="0.3" width="0.1" layer="116"/>
+<circle x="69.215" y="13.018" radius="0.3" width="0.1" layer="116"/>
+<circle x="74.93" y="26.353" radius="0.3" width="0.1" layer="116"/>
+<circle x="75.883" y="13.97" radius="0.3" width="0.1" layer="116"/>
+<circle x="3.81" y="27.94" radius="0.35" width="0.2" layer="116"/>
+<circle x="28.575" y="7.62" radius="0.35" width="0.2" layer="116"/>
+<circle x="25.4" y="22.225" radius="0.35" width="0.2" layer="116"/>
+<circle x="48.578" y="6.033" radius="0.35" width="0.2" layer="116"/>
+<circle x="42.227" y="18.733" radius="0.3" width="0.1" layer="116"/>
+<circle x="6.033" y="9.525" radius="0.3" width="0.1" layer="116"/>
+<circle x="49.848" y="24.765" radius="0.3" width="0.1" layer="116"/>
+<circle x="69.532" y="27.94" radius="0.3" width="0.1" layer="116"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2339,7 +2414,7 @@ design rules under a new name.</description>
 <vertex x="80.01" y="-0.3175"/>
 <vertex x="47.625" y="-0.3175"/>
 </polygon>
-<polygon width="0.6096" layer="16">
+<polygon width="0.6096" layer="16" isolate="0.4064">
 <vertex x="0" y="40.3225"/>
 <vertex x="29.21" y="40.3225"/>
 <vertex x="29.21" y="-0.3175"/>
